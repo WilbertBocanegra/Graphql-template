@@ -1,4 +1,4 @@
-const { makeExecutableSchema } = require('apollo-server-express');
+const { makeExecutableSchema } = require('apollo-server');
 
 const resolvers = require('../graphql/resolvers');
 const typeDefs = require('../graphql/typeDefs')
